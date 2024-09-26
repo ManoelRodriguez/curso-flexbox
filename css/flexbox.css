@@ -2,13 +2,23 @@
 .cabecalho__container {
     display: flex;
     justify-content: space-between;
-    align-items: center; /* alinhando os itens na vertical */
+    align-items: center;
+    /* alinhando os itens na vertical */
     position: fixed;
     top: 0;
 }
 
 .cabecalho__pesquisar__item {
     display: none;
+}
+
+/* SEÇÃO SUPERIOR */
+.superior__secao__container {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    overflow: scroll;
+    gap: 15px;
 }
 
 /* RODAPÉ */
