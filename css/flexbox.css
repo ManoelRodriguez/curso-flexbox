@@ -1,8 +1,8 @@
+/* CABEÇALHO */
 .cabecalho__container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    /* alinhando os itens na vertical */
+    align-items: center; /* alinhando os itens na vertical */
     position: fixed;
     top: 0;
 }
@@ -11,8 +11,23 @@
     display: none;
 }
 
+/* RODAPÉ */
+.rodape__container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
 @media(min-width: 834px) {
+
+    /* CABEÇALHO */
     .cabecalho__pesquisar__item {
         display: block;
+    }
+
+    /* RODAPÉ */
+    .rodape__container {
+        justify-content: space-between;
     }
 }
